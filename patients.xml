@@ -9,7 +9,12 @@
 
   <!-- TODO 1: Add patient P-102 with status="stable". -->
   <!-- Include name, ward, condition, and one observation. -->
-
-  <!-- TODO 2: In one condition, use &amp; to display an ampersand safely. -->
+  <patient id="P-102" status="stable">
+    <name>Jonas Meyer</name>
+    <ward>General</ward>
+    <!-- TODO 2: "&amp;" is used here so the ampersand is parsed as text, not markup -->
+    <condition>Headache &amp; mild dehydration</condition>
+    <observation code="TEMP" unit="C">37.8</observation>
+  </patient>
 </clinic>
 
