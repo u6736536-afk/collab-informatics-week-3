@@ -13,7 +13,7 @@
     <name>Jonas Meyer</name>
     <ward>General</ward>
     <!-- TODO 2: "&amp;" is used here so the ampersand is parsed as text, not markup -->
-    <condition>Headache &amp; mild dehydration</condition>
+    <condition>Headache &; mild dehydration</condition>
     <observation code="TEMP" unit="C">37.8</observation>
   </patient>
 </clinic>
